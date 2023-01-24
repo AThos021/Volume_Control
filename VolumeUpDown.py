@@ -79,5 +79,5 @@ while True:
         if k == 27:
             break
     except Exception as e:
-        print(e)
+        print("Hands are Moved out from The Camera")
 cv2.destroyAllWindows()
